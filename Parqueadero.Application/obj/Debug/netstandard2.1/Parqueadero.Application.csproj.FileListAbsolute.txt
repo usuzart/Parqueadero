@@ -1,0 +1,13 @@
+C:\Users\desar\Parqueadero.Api\Parqueadero.Application\bin\Debug\netstandard2.1\Parqueadero.Application.deps.json
+C:\Users\desar\Parqueadero.Api\Parqueadero.Application\bin\Debug\netstandard2.1\Parqueadero.Application.dll
+C:\Users\desar\Parqueadero.Api\Parqueadero.Application\bin\Debug\netstandard2.1\Parqueadero.Application.pdb
+C:\Users\desar\Parqueadero.Api\Parqueadero.Application\bin\Debug\netstandard2.1\Parqueadero.Domain.dll
+C:\Users\desar\Parqueadero.Api\Parqueadero.Application\bin\Debug\netstandard2.1\Parqueadero.Domain.pdb
+C:\Users\desar\Parqueadero.Api\Parqueadero.Application\obj\Debug\netstandard2.1\Parqueadero.Application.csproj.AssemblyReference.cache
+C:\Users\desar\Parqueadero.Api\Parqueadero.Application\obj\Debug\netstandard2.1\Parqueadero.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\desar\Parqueadero.Api\Parqueadero.Application\obj\Debug\netstandard2.1\Parqueadero.Application.AssemblyInfoInputs.cache
+C:\Users\desar\Parqueadero.Api\Parqueadero.Application\obj\Debug\netstandard2.1\Parqueadero.Application.AssemblyInfo.cs
+C:\Users\desar\Parqueadero.Api\Parqueadero.Application\obj\Debug\netstandard2.1\Parqueadero.Application.csproj.CoreCompileInputs.cache
+C:\Users\desar\Parqueadero.Api\Parqueadero.Application\obj\Debug\netstandard2.1\Parqueadero.Application.csproj.CopyComplete
+C:\Users\desar\Parqueadero.Api\Parqueadero.Application\obj\Debug\netstandard2.1\Parqueadero.Application.dll
+C:\Users\desar\Parqueadero.Api\Parqueadero.Application\obj\Debug\netstandard2.1\Parqueadero.Application.pdb

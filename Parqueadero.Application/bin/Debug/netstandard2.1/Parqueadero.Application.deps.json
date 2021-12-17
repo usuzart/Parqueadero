@@ -1,0 +1,37 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.1/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.1": {},
+    ".NETStandard,Version=v2.1/": {
+      "Parqueadero.Application/1.0.0": {
+        "dependencies": {
+          "Parqueadero.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Parqueadero.Application.dll": {}
+        }
+      },
+      "Parqueadero.Domain/1.0.0": {
+        "runtime": {
+          "Parqueadero.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Parqueadero.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Parqueadero.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
