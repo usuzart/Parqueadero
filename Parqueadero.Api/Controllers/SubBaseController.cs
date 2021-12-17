@@ -20,34 +20,29 @@ namespace Parqueadero.Api.Controllers
             this.crudService = crudService;
         }
 
-        [HttpPut]
-        public async Task<TEntity> Post(TEntity entity) 
+        [HttpPost]
+        public async Task<TEntity> Post(TEntity entity)
         {
             return await this.crudService.InsertAsync(entity);
-
         }
-        [HttpPost]
+
+        [HttpPut]
         public async Task<TEntity> Put(TEntity entity)
         {
             return await this.crudService.UpdateAsync(entity);
-
         }
 
-        
         [HttpDelete]
         [Route("{id}")]
-        public async Task<bool> Delete(TId tid)
+        public async Task<bool> Delete(TId id)
         {
-            return await this.crudService.DeleteByIdAsync(tid);
-
+            return await this.crudService.DeleteByIdAsync(id);
         }
 
-        
         [HttpGet]
-        public async Task<IEnumerable<TEntity>> Get( )
+        public async Task<IEnumerable<TEntity>> Get()
         {
             return await this.crudService.FindByAllAsync();
-
         }
 
         [HttpGet]
