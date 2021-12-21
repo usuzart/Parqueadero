@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Parqueadero.Domain
 {
-    public class Puesto : Entity<string>
+    public class Puesto : Entity<string>, IEquatable<Puesto>
     {
         public string Nombre { get; set; }
         public int Numero { get; set; }
@@ -21,5 +21,10 @@ namespace Parqueadero.Domain
             return new Puesto(nombre, numero);
         }
 
+        public  bool Equals(Puesto other)
+        {
+            if (other == null) return false;
+            return (this.Nombre.Equals(other.Nombre));
+        }
     }
 }
